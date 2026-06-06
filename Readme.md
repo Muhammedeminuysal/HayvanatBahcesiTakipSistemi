@@ -58,7 +58,7 @@ Sistem, aşağıdaki özelliklerle yönetim süreçlerini kolaylaştırır:
 
 - **Backend (Arka Uç):** PHP (Herhangi harici kütüphane bulunmamaktadır.)
 - **Veri Tabanı:** MySQL / MariaDB
-- **Frontend (Ön Uç):** HTML5, CSS3, Bootstrap 5 (Responsive / Mobil Uyumlu)
+- **Frontend (Ön Uç):** HTML5, CSS3, Bootstrap 5
 
 ---
 
