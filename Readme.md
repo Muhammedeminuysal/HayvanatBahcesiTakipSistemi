@@ -1,4 +1,4 @@
-# HAYVANAT BAHÇESİ HAYVAN TAKİP SİSTEMİ
+# HAYVANAT BAHÇESİ TAKİP SİSTEMİ
 
 ##  Proje Genel Bakış
 
