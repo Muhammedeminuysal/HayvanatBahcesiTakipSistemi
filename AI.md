@@ -1,3 +1,3 @@
 AI Geçmişi:
 
-https://gemini.google.com/share/7a9c11d26e4b
+https://gemini.google.com/share/0bed829a25c5
