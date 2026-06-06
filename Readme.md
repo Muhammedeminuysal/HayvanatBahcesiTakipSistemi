@@ -61,6 +61,12 @@ Sistem, aşağıdaki özelliklerle yönetim süreçlerini kolaylaştırır:
 - **Frontend (Ön Uç):** HTML5, CSS3, Bootstrap 5
 
 ---
+## Uygulama içi Ekran Görüntüleri
+
+<img width="1920" height="1080" alt="Ekran görüntüsü 2026-06-06 181541" src="https://github.com/user-attachments/assets/3e1d46ee-deaf-447c-9585-bfbd3bed7115" />
+<img width="1920" height="1080" alt="Ekran görüntüsü 2026-06-06 181559" src="https://github.com/user-attachments/assets/262750ae-725b-44b6-98b0-5e8665ddb181" />
+<img width="1920" height="1080" alt="Ekran görüntüsü 2026-06-06 181653" src="https://github.com/user-attachments/assets/b8c83bf9-d759-498c-b44a-72a6038e52cf" />
+
 
 #  Kurulum Kılavuzu
 
@@ -94,3 +100,4 @@ CREATE TABLE hayvanlar (
     YasamAlani VARCHAR(50),
     EkleyenKullanici VARCHAR(50) NOT NULL
 );
+
