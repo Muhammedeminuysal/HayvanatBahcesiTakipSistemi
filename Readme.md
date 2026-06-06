@@ -27,34 +27,34 @@ Sistem, aşağıdaki özelliklerle yönetim süreçlerini kolaylaştırır:
 
 ###  Veri Güvenliği ve Gizlilik
 
-- **🔒 Şifreli Veri Saklama**: Kullanıcı şifreleri veri tabanına doğrudan/açık metin olarak yazılmaz. `password_hash()` (BCRYPT) algoritması kullanılarak tamamen hash'lenmiş olarak saklanır.
-- **👤 Güvenli Oturum Yönetimi**: Sistemde düz çerezler (cookies) yerine **Oturumlar (Sessions)** kullanılmıştır.
+- **Şifreli Veri Saklama**: Kullanıcı şifreleri veri tabanına doğrudan/açık metin olarak yazılmaz. `password_hash()` (BCRYPT) algoritması kullanılarak tamamen hash'lenmiş olarak saklanır.
+- **Güvenli Oturum Yönetimi**: Sistemde düz çerezler (cookies) yerine **Oturumlar (Sessions)** kullanılmıştır.
 
 ---
 
 ## ÖRNEK KULLANIM AKIŞI
 
-1. ** Giriş ve Hesap Oluşturma**:
+1. **Giriş ve Hesap Oluşturma**:
    - Kullanıcı, ana ekrandaki "Üye Ol" formunu kullanarak benzersiz bir kullanıcı adı ve şifreyle sistemde kendi güvenli hesabını oluşturur.
    - Oluşturduğu hesapla güvenli bir şekilde giriş yapar ve sunucu üzerinde session oturumu başlatılır.
 
-2. ** Yeni Hayvan Ekleme (Create)**:
+2. **Yeni Hayvan Ekleme (Create)**:
    - Yönetim panelindeki formu kullanarak hayvanın adını, türünü, barınağını, beslenme ve sağlık durumunu sisteme kaydeder.
    - Eklenen veri, o an oturumu açık olan kullanıcının ismiyle (`EkleyenKullanici`) veri tabanına işlenir.
 
-3. ** Envanter Listeleme ve İnceleme (Read)**:
+3. **Envanter Listeleme ve İnceleme (Read)**:
    - Kullanıcı, ana panelin sağ tarafında sadece kendi eklemiş olduğu hayvanların dinamik ve temiz bir listesini kart/tablo yapısında görür.
 
-4. ** Bilgileri Düzenleme ve Güncelleme (Update)**:
+4. **Bilgileri Düzenleme ve Güncelleme (Update)**:
    - Herhangi bir hayvan kaydındaki "Düzenle" butonuna tıklandığında, ilgili hayvanın mevcut bilgileri form alanlarına otomatik geri yüklenir. Değişiklikler yapılıp kaydedildiğinde veri tabanı güncellenir.
    - Ayrıca "Kişisel Bilgilerimi Güncelle" alanı sayesinde kullanıcı kendi kullanıcı adını veya şifresini değiştirebilir. Kullanıcı adı değiştiğinde, eklediği tüm hayvanlar da otomatik olarak yeni kullanıcı adına transfer edilir.
 
-5. ** Kayıt Silme (Delete)**:
+5. **Kayıt Silme (Delete)**:
    - Listeden kaldırılmak istenen bir hayvanın yanındaki "Sil" butonuna tıklandığında, sistem kullanıcıdan onay (`confirm`) ister ve onay verilirse kayıt veri tabanından tamamen temizlenir.
 
 ---
 
-## 🛠️ Kullanılan Teknolojiler
+## Kullanılan Teknolojiler
 
 - **Backend (Arka Uç):** PHP (Herhangi harici kütüphane bulunmamaktadır.)
 - **Veri Tabanı:** MySQL / MariaDB
@@ -62,11 +62,11 @@ Sistem, aşağıdaki özelliklerle yönetim süreçlerini kolaylaştırır:
 
 ---
 
-# 💻 Kurulum Kılavuzu
+#  Kurulum Kılavuzu
 
 Bu kılavuz, sistemi yerel bilgisayarınızda (localhost) sorunsuz bir şekilde ayağa kaldırabilmeniz için adım adım talimatlar sunmaktadır.
 
-## 📋 Kurulum Adımları
+##  Kurulum Adımları
 
 ### 1) Proje Dosyalarının Yerleştirilmesi
 1. GitHub repomuzdaki tüm dosyaları ZIP olarak indirin.
